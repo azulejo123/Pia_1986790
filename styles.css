@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Login Styles */
+#login-container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#login-container input {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#login-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#login-container button:hover {
+  background-color: #0056b3;
+}
+
+#error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Menu Container */
+#menu-container {
+  text-align: center;
+  width: 100%;
+}
+
+.buttons-container {
+  margin-bottom: 20px;
+}
+
+#menu-container button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#menu-container button:hover {
+  background-color: #218838;
+}
+
+#menu-container canvas {
+  display: block;
+  margin: 20px auto;
+  background: #fff;
+  border: 2px solid #ccc;
+}
+
+.controls-container {
+  margin-top: 10px;
+}
+
+.controls-container button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.controls-container button:hover {
+  background-color: #e0a800;
+}
+
+.hidden {
+  display: none;
+}

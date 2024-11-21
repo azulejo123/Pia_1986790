@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visualizador de Estructuras de Datos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Login Container -->
+  <div id="login-container">
+    <h1>Iniciar Sesión</h1>
+    <input type="text" id="username" placeholder="Nombre de Usuario">
+    <input type="password" id="password" placeholder="Contraseña">
+    <button id="login-btn">Ingresar</button>
+    <p id="error-message"></p>
+  </div>
+
+  <!-- Menu Container -->
+  <div id="menu-container" class="hidden">
+    <h1>Menú Principal</h1>
+    <div class="buttons-container">
+      <button onclick="selectStructure('stack')">Pila</button>
+      <button onclick="selectStructure('queue')">Cola</button>
+      <button onclick="selectStructure('tree')">Árbol</button>
+      <button onclick="selectStructure('list')">Lista</button>
+    </div>
+    <canvas id="canvas"></canvas>
+    <div class="controls-container">
+      <button onclick="insertValue()">Insertar</button>
+      <button onclick="removeValue()">Eliminar</button>
+    </div>
+    <p id="info"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
